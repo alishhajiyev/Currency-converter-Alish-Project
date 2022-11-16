@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 main{
-    width: 40%;
+    width: 50%;
     height: 100%;
     margin: 0px auto;
 }
@@ -32,8 +32,14 @@ h1{
     width: fit-content;
 }
 .currency1, .currency2{
+    font-weight: 700;
     padding: 15px 30px;
     border: 1px solid lightgrey;
+    color: lightgrey;
+}
+.currency1:hover, .currency2:hover{
+    cursor: pointer;
+    background-color: blue;
 }
 .area1, .area2{
     width: 300px;
@@ -44,8 +50,9 @@ h1{
 }
 
 #input1, #input2{
-    background-color: lightcoral;
+    background-color: white;
     border: none;
     font-size: 30px;
-    width: 150px;
+    width: 200px;
+    outline: 0;
 }
