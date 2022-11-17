@@ -39,7 +39,10 @@ h1{
 }
 .currency1:hover, .currency2:hover{
     cursor: pointer;
-    background-color: blue;
+    background-color: #833AE0;
+    /* border-color: #833AE0; */
+    color: white;
+
 }
 .area1, .area2{
     width: 300px;
@@ -55,4 +58,9 @@ h1{
     font-size: 30px;
     width: 200px;
     outline: 0;
+}
+.violet{
+    background-color: #833AE0;
+    border-color: #833AE0;
+    color: white;
 }
