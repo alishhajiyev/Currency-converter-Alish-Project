@@ -9,20 +9,53 @@
     <script defer src="./assets/js/main.js"></script>
 </head>
 <body>
+    <header>
+        <div class="media">
+            <img class="menu" src="./assets/images/menu.jpg" alt="">
+        </div>
+        <div>
+            <img src="./assets/images/Asset 1@3x 1.png" alt="logo">
+        </div>
+        
+        <div class="navigation">
+            <ul>
+                <li><a href="">БАНК</a></li>
+                <li><a href="">БИЗНЕС</a></li>
+                <li><a href="">ИНВЕСТИЦИИ</a></li>
+                <li><a href="">СТРАХОВАНИЕ</a></li>
+                <li><a href="">МОБАЙЛ</a></li>
+                <li><a href="">ПУТЕШЕСТВИЯ</a></li>
+                <li><a href="">РАЗВЛЕЧЕНИЯ</a></li>
+            </ul>
+        </div>
+        <div>
+            <button>ВОЙТИ</button>
+        </div>
+        
+    </header>
     <main>
+        <div class="list">
+            <li><b>БАНК</b></li>
+            <li>БИЗНЕС</li>
+            <li>ИНВЕСТИЦИИ</li>
+            <li>СТРАХОВАНИЕ</li>
+            <li>МОБАЙЛ</li>
+            <li>ПУТЕШЕСТВИЯ</li>
+            <li>РАЗВЛЕЧЕНИЯ</li>
+        </div>
         <h1>Конвертер валют онлайн</h1>
         <div id="container">
             <div id="first-container">
-                <p>У меня есть </p>
+                <p>У меня есть</p>
                 <div id="currency-row1">
-                    <div class="currency1">RUB</div>
-                    <div class="currency1">USD</div>
-                    <div class="currency1">EUR</div>
-                    <div class="currency1">GBP</div>
+                    <div name="one" class="currency1 active">RUB</div>
+                    <div name="one" class="currency1">USD</div>
+                    <div name="one" class="currency1">EUR</div>
+                    <div name="one" class="currency1">GBP</div>
                 </div>
                 
                 <div class="area1">
-                    <input id="input1" type="text">
+                    <input class="input1" id="input1" type="number">
                     <p>1 RUB = 0.0135 USD</p>
                 </div>
             </div>
@@ -30,21 +63,18 @@
             <div id="second-container">
                 <p>Хочу приобрести</p>
                 <div id="currency-row2">
-                    <div class="currency2">RUB</div>
-                    <div class="currency2">USD</div>
-                    <div class="currency2">EUR</div>
-                    <div class="currency2">GBP</div>
+                    <div name="two" class="currency2">RUB</div>
+                    <div name="two" class="currency2 active">USD</div>
+                    <div name="two" class="currency2">EUR</div>
+                    <div name="two" class="currency2">GBP</div>
                 </div>
 
                 <div class="area2">
-                    <input id="input2" type="text">
+                    <input class="input2" id="input2" type="number">
                     <p>1 USD = 73.8896 RUB</p>
                 </div>
             </div>
-            
         </div>
-        
     </main>
-    
 </body>
 </html>
